@@ -1,0 +1,331 @@
+body {
+  font-family: HelveticaNeueCyr-Roman; }
+  @media only screen and (min-width: 48rem) {
+    body {
+      font-size: 0.6875rem; } }
+  @media only screen and (min-width: 62rem) {
+    body {
+      font-size: 0.6875rem; } }
+  @media only screen and (min-width: 93.75rem) {
+    body {
+      font-size: 0.75rem; } }
+  @media only screen and (min-width: 100rem) {
+    body {
+      font-size: 0.8125rem; } }
+  @media only screen and (min-width: 106.25rem) {
+    body {
+      font-size: 0.875rem; } }
+  @media only screen and (min-width: 112.5rem) {
+    body {
+      font-size: 0.9375rem; } }
+  @media only screen and (min-width: 118.75rem) {
+    body {
+      font-size: 1rem; } }
+  body.inner main {
+    padding-top: 4.875rem; }
+    @media only screen and (min-width: 62rem) {
+      body.inner main {
+        padding-top: 9.68em; } }
+
+main {
+  overflow: hidden; }
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.25em;
+  color: #4B4B4B; }
+  p.p2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 120%; }
+    @media only screen and (min-width: 48rem) {
+      p.p2 {
+        font-size: 1.125rem; } }
+    @media only screen and (min-width: 62rem) {
+      p.p2 {
+        font-size: 1.375rem; } }
+
+h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5em;
+  line-height: 110%;
+  color: #222;
+  font-weight: bold; }
+
+select {
+  outline: none; }
+
+.center {
+  text-align: center; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+@media (min-width: 18.75rem) {
+  .container {
+    width: 100%;
+    padding: 0 0.9375rem; } }
+
+.container {
+  display: block;
+  margin: auto;
+  max-width: 79.6875rem;
+  width: 100%; }
+  @media only screen and (min-width: 75rem) {
+    .container {
+      max-width: 79.6875rem;
+      width: 100%; } }
+
+section {
+  height: auto; }
+
+.owl-animated-out {
+  z-index: 1; }
+
+.owl-animated-in {
+  z-index: 2; }
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+          animation-name: fadeOut; }
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn; }
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.owl-dots {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .owl-dots .owl-dot {
+    margin: 0 0.9375rem; }
+    .owl-dots .owl-dot.active span:before {
+      opacity: 1; }
+    .owl-dots .owl-dot span {
+      display: block;
+      width: 0.5625rem;
+      height: 0.5625rem;
+      background-color: green;
+      -webkit-border-radius: 100%;
+              border-radius: 100%;
+      position: relative; }
+      .owl-dots .owl-dot span:before {
+        content: "";
+        position: absolute;
+        width: 1.0625rem;
+        height: 1.0625rem;
+        background-color: rgba(18, 160, 156, 0.3);
+        top: -0.25rem;
+        left: -0.25rem;
+        -webkit-border-radius: 100%;
+                border-radius: 100%;
+        opacity: 0;
+        -webkit-transition: opacity .25s;
+        -o-transition: opacity .25s;
+        transition: opacity .25s; }
+
+.owl-nav {
+  display: none; }
+  @media only screen and (min-width: 85.375rem) {
+    .owl-nav {
+      display: block; } }
+  .owl-nav button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 3.125em;
+    height: 3.125em;
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+    -webkit-transition: -webkit-filter .25s;
+    transition: -webkit-filter .25s;
+    -o-transition: filter .25s;
+    transition: filter .25s;
+    transition: filter .25s, -webkit-filter .25s; }
+    .owl-nav button.disabled {
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%); }
+    .owl-nav button svg {
+      width: 100%;
+      height: 100%; }
+      .owl-nav button svg circle {
+        stroke: rgba(18, 160, 156, 0.3);
+        -webkit-transition: stroke .25s;
+        -o-transition: stroke .25s;
+        transition: stroke .25s; }
+      .owl-nav button svg path {
+        fill: green;
+        -webkit-transition: fill .25s;
+        -o-transition: fill .25s;
+        transition: fill .25s; }
+    .owl-nav button:hover circle {
+      stroke: rgba(242, 124, 20, 0.3); }
+    .owl-nav button:hover path {
+      fill: orange; }
+  .owl-nav .owl-prev {
+    left: -5%; }
+  .owl-nav .owl-next {
+    right: -5%; }
+
+.dots__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  position: relative;
+  padding-left: 0.9375rem;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  display: flex;
+  align-items: center; }
+  .dots__list .owl-dot {
+    display: block;
+    width: 0.3125rem;
+    height: 0.3125rem;
+    background-color: green;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    margin: 0 0.9375rem;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: -webkit-transform .25s;
+    transition: -webkit-transform .25s;
+    -o-transition: transform .25s;
+    transition: transform .25s;
+    transition: transform .25s, -webkit-transform .25s; }
+    .dots__list .owl-dot:before {
+      content: "";
+      position: absolute;
+      width: 0.5625rem;
+      height: 0.5625rem;
+      background-color: rgba(18, 160, 156, 0.3);
+      z-index: -1;
+      top: -0.125rem;
+      left: -0.125rem;
+      -webkit-border-radius: 100%;
+              border-radius: 100%;
+      opacity: 0;
+      -webkit-transition: opacity .25s;
+      -o-transition: opacity .25s;
+      transition: opacity .25s; }
+    .dots__list .owl-dot.active {
+      -webkit-transform: scale(2);
+          -ms-transform: scale(2);
+              transform: scale(2); }
+      .dots__list .owl-dot.active:before {
+        opacity: 1; }
+    .dots__list .owl-dot.next, .dots__list .owl-dot.prev {
+      -webkit-transform: scale(1.8);
+          -ms-transform: scale(1.8);
+              transform: scale(1.8); }
+    .dots__list .owl-dot.next1, .dots__list .owl-dot.prev1 {
+      -webkit-transform: scale(1.7);
+          -ms-transform: scale(1.7);
+              transform: scale(1.7); }
+  .dots__list.white .owl-dot {
+    background-color: white; }
+    .dots__list.white .owl-dot:before {
+      background-color: rgba(255, 255, 255, 0.3); }
+
+.animBlock {
+  -webkit-transition: 250ms ease-in-out;
+  -o-transition: 250ms ease-in-out;
+  transition: 250ms ease-in-out;
+  top: 0;
+  position: relative; }
+  .animBlock:hover {
+    top: -0.9375rem; }
+
+.animBR {
+  -webkit-border-radius: 50% !important;
+          border-radius: 50% !important; }
+
+.animBGimg.img {
+  -webkit-border-radius: 1.875rem;
+          border-radius: 1.875rem;
+  overflow: hidden; }
+
+.animBGimg img {
+  -webkit-transition: 1s linear;
+  -o-transition: 1s linear;
+  transition: 1s linear;
+  width: 100%;
+  height: 100%; }
+  .animBGimg img:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
+
+.animBlockBGimg {
+  -webkit-transition: 1s linear !important;
+  -o-transition: 1s linear !important;
+  transition: 1s linear !important;
+  -webkit-background-size: 115% 115% !important;
+          background-size: 115% !important; }
+  .animBlockBGimg:hover {
+    -webkit-background-size: 130% 130% !important;
+            background-size: 130% !important; }
+
+.animBtn {
+  -webkit-transition: .25s linear;
+  -o-transition: .25s linear;
+  transition: .25s linear; }
+  .animBtn:hover {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05); }

@@ -1,0 +1,84 @@
+.s_logistics-title {
+  margin-bottom: 0.625rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_logistics-title {
+      margin-bottom: 3.125rem; } }
+
+.s_logistics-top-text {
+  display: none; }
+  @media only screen and (min-width: 48rem) {
+    .s_logistics-top-text {
+      display: block; } }
+
+.s_logistics-images-text {
+  margin-top: 0 !important;
+  margin-bottom: -0.625rem !important; }
+  @media only screen and (min-width: 48rem) {
+    .s_logistics-images-text {
+      margin-bottom: 0 !important; } }
+  .s_logistics-images-text h3 {
+    margin-bottom: 1.875rem !important;
+    font-size: 1.375rem; }
+    @media only screen and (min-width: 48rem) {
+      .s_logistics-images-text h3 {
+        font-family: "HelveticaNeueCyr-Medium";
+        margin-bottom: 1.5em !important;
+        font-size: 1.5rem;
+        margin-top: 2.5rem !important; } }
+    @media only screen and (min-width: 62rem) {
+      .s_logistics-images-text h3 {
+        margin-top: 0 !important; } }
+
+.s_logistics p {
+  font-size: 1rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_logistics p {
+      font-size: 1.375rem; } }
+
+@media only screen and (min-width: 48rem) {
+  .s_logistics b {
+    font-family: "HelveticaNeueCyr-Medium";
+    font-weight: 700; } }
+
+.s_logistics .s_logistics-top-text {
+  max-width: 80%; }
+
+.s_logistics-cards .mt {
+  margin-top: 1.875rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_logistics-cards .mt {
+      margin-top: 0; } }
+
+@media only screen and (max-width: 47.9375rem) {
+  .s_priority-logistics {
+    margin-top: 1em; } }
+
+@media only screen and (min-width: 48rem) {
+  .s_priority-list_posts-logistics {
+    overflow: visible; } }
+
+.s_priority-list_posts-logistics .wrap {
+  width: 100%; }
+  .s_priority-list_posts-logistics .wrap p {
+    max-width: 14rem;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    color: #4B4B4B; }
+    @media only screen and (min-width: 48rem) {
+      .s_priority-list_posts-logistics .wrap p {
+        max-width: 18.5rem;
+        font-size: 1.25rem;
+        line-height: 1.0625rem;
+        color: #000; } }
+
+@media only screen and (min-width: 48rem) {
+  .s_priority-list_posts-logistics .item {
+    min-height: 22.8125rem; } }
+
+@media only screen and (max-width: 47.9375rem) {
+  .s_international.s_logistics-cards .banner.img p {
+    font-size: 1.25rem; } }
+
+@media only screen and (min-width: 48rem) {
+  .s_logistics .s_priority-list_posts-logistics .wrap p {
+    line-height: 1.1; } }

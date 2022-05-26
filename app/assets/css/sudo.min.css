@@ -1,0 +1,265 @@
+.s_sudo h3 {
+  margin-bottom: 1em; }
+
+.s_sudo p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #000000; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo p {
+      font-size: 1.375rem; } }
+
+.s_sudo .topText {
+  max-width: 69.375rem; }
+
+.s_sudo .s_sudo-banner.banner {
+  padding: 1.5625rem;
+  margin: 2.1875rem 0; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo .s_sudo-banner.banner {
+      padding: 2.5rem 0.9375rem;
+      height: 40.3125rem;
+      width: 100%;
+      left: 0; } }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo .s_sudo-banner.banner {
+      height: 37.5rem; } }
+  @media only screen and (min-width: 62rem) {
+    .s_sudo .s_sudo-banner.banner {
+      height: 35.625rem; } }
+  @media only screen and (min-width: 90rem) {
+    .s_sudo .s_sudo-banner.banner {
+      height: 40.3125rem; } }
+  .s_sudo .s_sudo-banner.banner p {
+    font-size: 1rem; }
+    @media only screen and (min-width: 48rem) {
+      .s_sudo .s_sudo-banner.banner p {
+        font-size: 1.625rem; } }
+
+.s_sudo-double {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1.875rem 0;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: -webkit-calc(100% + 1.875rem);
+  width: calc(100% + 1.875rem);
+  position: relative;
+  left: -0.9375rem;
+  background-color: #fff;
+  padding: 1.25rem;
+  -webkit-border-radius: 1.875rem;
+          border-radius: 1.875rem; }
+  @media only screen and (min-width: 62rem) {
+    .s_sudo-double {
+      width: 100%;
+      left: 0;
+      padding: 0;
+      background-color: transparent;
+      margin: 3.125rem 0; } }
+  .s_sudo-double .item {
+    width: 100%;
+    padding: 1.875rem 0 0;
+    background-color: #fff;
+    -webkit-border-radius: 1.875rem;
+            border-radius: 1.875rem; }
+    @media only screen and (min-width: 62rem) {
+      .s_sudo-double .item {
+        width: 48%;
+        padding: 4em 3em 4em 4em; } }
+    .s_sudo-double .item h4 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.5rem;
+      line-height: 100%;
+      color: #222222;
+      margin-bottom: 1em; }
+      @media only screen and (min-width: 48rem) {
+        .s_sudo-double .item h4 {
+          font-size: 1.4375rem; } }
+    .s_sudo-double .item li {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 1.1;
+      color: #222222;
+      margin-bottom: 1em;
+      padding-left: 1.5em;
+      -webkit-background-size: 1em 1em;
+              background-size: 1em;
+      background-position: left top;
+      background-repeat: no-repeat; }
+      .s_sudo-double .item li:nth-child(1) {
+        background-image: url(/assets/upload/su2.svg); }
+      .s_sudo-double .item li:nth-child(2) {
+        background-image: url(/assets/upload/su3.svg); }
+      .s_sudo-double .item li:nth-child(3) {
+        background-image: url(/assets/upload/su4.svg); }
+      @media only screen and (min-width: 48rem) {
+        .s_sudo-double .item li {
+          font-size: 1.4375rem; } }
+    .s_sudo-double .item.img {
+      width: 100%;
+      height: 13.5rem;
+      background-position: center; }
+      @media only screen and (min-width: 48rem) {
+        .s_sudo-double .item.img {
+          height: 40em; } }
+      @media only screen and (min-width: 62rem) {
+        .s_sudo-double .item.img {
+          width: 49%;
+          -webkit-background-size: cover !important;
+                  background-size: cover !important;
+          height: auto; } }
+
+.s_sudo-list p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.1;
+  color: #000000;
+  margin-bottom: 2em; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo-list p {
+      font-size: 1.4375rem;
+      margin-bottom: 1.875rem; } }
+
+.s_sudo-list li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0.5rem 0;
+  color: #000000;
+  padding-left: 3em;
+  background-image: url(/assets/upload/checked2.svg);
+  -webkit-background-size: 2em 2em;
+          background-size: 2em;
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-bottom: 0.625rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo-list li {
+      margin: 0;
+      padding: 1rem 0;
+      padding-left: 3em; } }
+
+.s_sudo-contacts .s_sudo-banner.banner.img {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.s_sudo-contacts h4 {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin-bottom: 1em;
+  font-size: 1.5rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo-contacts h4 {
+      font-size: 2.5rem;
+      font-weight: bold; } }
+
+.s_sudo-contacts p {
+  line-height: 1.1;
+  color: #FFFFFF;
+  margin-bottom: 1em;
+  font-size: 1rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo-contacts p {
+      font-size: 1.625rem; } }
+
+.s_sudo-contacts a, .s_sudo-contacts span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1;
+  color: #FFFFFF;
+  text-transform: none; }
+
+.s_sudo-contacts button {
+  padding: .65em 1em;
+  width: 8em;
+  border: 0;
+  -webkit-border-radius: 1.75rem;
+          border-radius: 1.75rem;
+  background-color: #fff;
+  font-family: "HelveticaNeueCyr-Medium";
+  font-size: 1.125rem;
+  line-height: 0;
+  width: 9.4375rem;
+  height: 3rem;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #00365F;
+  margin-top: .8em; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo-contacts button {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+
+.s_sudo-contacts .s_sudo-banner.banner {
+  height: 27.5rem;
+  padding: 1.5625rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo-contacts .s_sudo-banner.banner {
+      height: 40.3125rem; } }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo-contacts .s_sudo-banner.banner {
+      height: 37.5rem; } }
+  @media only screen and (min-width: 62rem) {
+    .s_sudo-contacts .s_sudo-banner.banner {
+      height: 35.625rem; } }
+  @media only screen and (min-width: 90rem) {
+    .s_sudo-contacts .s_sudo-banner.banner {
+      height: 40.3125rem; } }
+
+.s_sudo-contacts .s_sudo-banner.banner.img {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo-contacts .s_sudo-banner.banner.img {
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+  @media only screen and (min-width: 75rem) {
+    .s_sudo-contacts .s_sudo-banner.banner.img {
+      padding: 3.125rem; } }
+  @media only screen and (max-width: 74.9375rem) {
+    .s_sudo-contacts .s_sudo-banner.banner.img {
+      -webkit-background-size: cover !important;
+              background-size: cover !important; } }
+
+.s_sudo .s_sudo-banner.banner .desktop {
+  display: none; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo .s_sudo-banner.banner .desktop {
+      display: block; } }
+
+.s_sudo .s_sudo-banner.banner .mobile {
+  display: block; }
+  @media only screen and (min-width: 48rem) {
+    .s_sudo .s_sudo-banner.banner .mobile {
+      display: none; } }

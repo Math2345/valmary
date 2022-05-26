@@ -1,0 +1,159 @@
+@media only screen and (min-width: 48rem) {
+  .s_international {
+    margin: 0 0 5em; } }
+
+.s_international h3 {
+  margin-bottom: 1.25rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_international h3 {
+      margin-bottom: 1.5em; } }
+  .s_international h3.section_title-export1 {
+    margin-top: -1.25rem; }
+    @media only screen and (min-width: 48rem) {
+      .s_international h3.section_title-export1 {
+        margin-top: 0; } }
+  .s_international h3.section_title-export2 {
+    margin-top: 1.875rem; }
+    @media only screen and (min-width: 48rem) {
+      .s_international h3.section_title-export2 {
+        margin-top: 0; } }
+
+.s_international p {
+  margin-bottom: 1em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.15em;
+  color: #000000;
+  font-size: 1rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_international p {
+      font-size: 1.375rem; } }
+
+.s_international img {
+  -webkit-border-radius: 1.5625rem;
+          border-radius: 1.5625rem;
+  margin-bottom: 3.5em;
+  width: 100%; }
+  .s_international img:hover {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
+
+.s_international .banner-img-wr {
+  background-color: #fff;
+  -webkit-border-radius: 1.5625rem;
+          border-radius: 1.5625rem;
+  height: 16.25rem;
+  margin: 1.25rem -0.9375rem 0;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media only screen and (max-width: 48rem) {
+    .s_international .banner-img-wr {
+      -webkit-background-size: cover !important;
+              background-size: cover !important; } }
+  @media only screen and (min-width: 48rem) {
+    .s_international .banner-img-wr {
+      margin: 4em 0 3.5em 0;
+      height: 27.5rem;
+      padding: 1.25rem; } }
+  @media only screen and (min-width: 62rem) {
+    .s_international .banner-img-wr {
+      height: 37.5rem; } }
+  @media only screen and (min-width: 87.5rem) {
+    .s_international .banner-img-wr {
+      height: 43.75rem; } }
+
+.s_international .banner {
+  -webkit-border-radius: 1.5625rem;
+          border-radius: 1.5625rem;
+  background-position: center;
+  position: relative;
+  left: -0.9375rem;
+  width: -webkit-calc(100% + 1.875rem);
+  width: calc(100% + 1.875rem); }
+  @media only screen and (max-width: 48rem) {
+    .s_international .banner {
+      -webkit-background-size: cover !important;
+              background-size: cover !important;
+      -webkit-transform: none !important;
+          -ms-transform: none !important;
+              transform: none !important;
+      background-position: center bottom; } }
+  .s_international .banner.img {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 1.5625rem 1.3125rem 1.5625rem 1.5625rem; }
+    .s_international .banner.img.m0 {
+      margin: 0; }
+    @media only screen and (min-width: 48rem) {
+      .s_international .banner.img {
+        padding: 2em;
+        margin: 4em 0 3.5em 0; } }
+    @media only screen and (max-width: 47.9375rem) {
+      .s_international .banner.img {
+        height: 16.25rem;
+        padding: 1.5625rem 1.875rem;
+        margin: 0.9375rem 0 1.875rem; } }
+    .s_international .banner.img p {
+      margin: 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.5rem;
+      line-height: 1.1em;
+      color: #FFFFFF; }
+      .s_international .banner.img p br {
+        display: none; }
+      @media only screen and (min-width: 48rem) {
+        .s_international .banner.img p {
+          display: block; } }
+      @media only screen and (min-width: 48rem) {
+        .s_international .banner.img p {
+          font-size: 2.5rem; } }
+      @media only screen and (min-width: 75rem) {
+        .s_international .banner.img p {
+          width: 70%; } }
+    .s_international .banner.img span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.75rem;
+      line-height: 1.1em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-bottom: 1em; }
+      @media only screen and (min-width: 48rem) {
+        .s_international .banner.img span {
+          font-size: 0.875rem; } }
+  .s_international .banner.white {
+    background-color: #fff;
+    padding: 2.1875rem 4rem;
+    margin: 1.25rem 0; }
+    @media only screen and (min-width: 48rem) {
+      .s_international .banner.white {
+        padding: 2.5em 4em;
+        margin: 0;
+        -webkit-border-radius: 1.5625rem;
+                border-radius: 1.5625rem; } }
+    .s_international .banner.white p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.125rem;
+      line-height: 1.2em;
+      text-align: center;
+      color: #222222;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 48rem) {
+        .s_international .banner.white p {
+          font-size: 1.875em; } }

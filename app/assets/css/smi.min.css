@@ -1,0 +1,45 @@
+.s_smi {
+  margin: 0 0 1.875rem; }
+  .s_smi.s_smi-btn {
+    display: none;
+    margin: 0 0 1.875rem; }
+    @media only screen and (min-width: 48rem) {
+      .s_smi.s_smi-btn {
+        margin: 0 0 4.375rem; } }
+    @media only screen and (min-width: 48rem) {
+      .s_smi.s_smi-btn {
+        display: block; } }
+  .s_smi button {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    background: #00365F;
+    -webkit-border-radius: 1.75rem;
+            border-radius: 1.75rem;
+    padding: .5em 1em;
+    display: block;
+    margin: 0 auto;
+    font-family: "HelveticaNeueCyr-Medium"; }
+  .s_smi .wrapper--list {
+    position: relative; }
+    @media only screen and (min-width: 62rem) {
+      .s_smi .wrapper--list::after {
+        content: "";
+        -webkit-transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+                transform: rotate(-180deg);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 16.4375rem; } }
+
+@media only screen and (min-width: 62rem) {
+  .s_news-banner.s_smi.active .wrapper--list::after {
+    display: none !important; } }
+
+@media only screen and (min-width: 62rem) {
+  .s_news-banner.s_smi .endLoading .wrapper--list::after {
+    display: none !important; } }

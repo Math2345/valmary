@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+.s_agro-nums {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2em 0;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .s_agro-nums .item {
+    width: 100%;
+    padding: 1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    @media only screen and (min-width: 48rem) {
+      .s_agro-nums .item {
+        width: 33.333%; } }
+    .s_agro-nums .item p {
+      font-style: normal;
+      font-weight: 800;
+      line-height: 1.3;
+      text-align: center;
+      -webkit-font-feature-settings: 'salt' on, 'liga' off;
+              font-feature-settings: 'salt' on, 'liga' off;
+      color: #00365F;
+      font-family: 'Outfit', sans-serif;
+      font-size: 3.75rem;
+      margin: 0; }
+      @media only screen and (min-width: 62rem) {
+        .s_agro-nums .item p {
+          font-size: 4.75rem; } }
+    .s_agro-nums .item span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.25rem;
+      line-height: 1.27;
+      text-align: center;
+      color: #0B0D17; }
+      @media only screen and (min-width: 62rem) {
+        .s_agro-nums .item span {
+          font-size: 1.5rem; } }
+
+.s_agro p {
+  font-weight: normal;
+  color: #000000;
+  font-size: 1rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_agro p {
+      font-size: 1.375rem; } }
+
+.s_agro-list--items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 -0.625rem; }
+  @media only screen and (min-width: 48rem) {
+    .s_agro-list--items {
+      margin: 2em -0.625rem 0; } }
+  .s_agro-list--items .item {
+    width: -webkit-calc(100% - 0.9375rem);
+    width: calc(100% - 0.9375rem);
+    margin: 1em 0;
+    padding: 0 0.625rem; }
+    .s_agro-list--items .item:hover .image, .s_agro-list--items .item-click .image {
+      top: 0.9375rem;
+      left: 0.9375rem;
+      z-index: 0; }
+      @media only screen and (min-width: 62rem) {
+        .s_agro-list--items .item:hover .image, .s_agro-list--items .item-click .image {
+          top: 0;
+          left: 0; } }
+    .s_agro-list--items .item:hover .contacts, .s_agro-list--items .item-click .contacts {
+      visibility: visible;
+      z-index: 1;
+      top: 0;
+      left: 0; }
+      @media only screen and (min-width: 48rem) {
+        .s_agro-list--items .item:hover .contacts, .s_agro-list--items .item-click .contacts {
+          opacity: 1;
+          visibility: visible; } }
+    @media only screen and (min-width: 48rem) {
+      .s_agro-list--items .item {
+        width: -webkit-calc(50% - 0.9375rem);
+        width: calc(50% - 0.9375rem);
+        padding: 0 0.9375rem; } }
+    @media only screen and (min-width: 62rem) {
+      .s_agro-list--items .item {
+        width: 33.333%; } }
+    .s_agro-list--items .item .wrap {
+      position: relative; }
+    .s_agro-list--items .item .contacts {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      padding: 2.375rem 2.5rem;
+      -webkit-border-radius: 1.875rem;
+              border-radius: 1.875rem;
+      -webkit-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out;
+      z-index: 0;
+      top: 0.9375rem;
+      left: 0.9375rem;
+      -webkit-box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.1);
+              box-shadow: 0.1875rem 0.1875rem 0.625rem rgba(0, 0, 0, 0.1); }
+      @media only screen and (min-width: 48rem) {
+        .s_agro-list--items .item .contacts {
+          padding: 0.9375rem; } }
+      @media only screen and (min-width: 62rem) {
+        .s_agro-list--items .item .contacts {
+          opacity: 0;
+          visibility: hidden;
+          top: 0;
+          left: 0; } }
+      @media only screen and (min-width: 75rem) {
+        .s_agro-list--items .item .contacts {
+          padding: 2.375rem 2.5rem; } }
+      .s_agro-list--items .item .contacts .name {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        color: #222222; }
+      .s_agro-list--items .item .contacts .info {
+        font-weight: normal;
+        font-size: 1.125rem;
+        line-height: 1.2;
+        color: #000000;
+        margin: 1.125rem 0; }
+        @media only screen and (min-width: 75rem) {
+          .s_agro-list--items .item .contacts .info {
+            font-size: 1.25rem; } }
+      .s_agro-list--items .item .contacts .tel, .s_agro-list--items .item .contacts .mail {
+        font-size: 1rem;
+        line-height: 1;
+        color: #000;
+        display: inline-block; }
+    .s_agro-list--items .item .image {
+      -webkit-background-size: cover;
+              background-size: cover;
+      width: 100%;
+      height: 19.25rem;
+      padding: 1.5em;
+      -webkit-border-radius: 1.875rem;
+              border-radius: 1.875rem;
+      position: relative;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      -webkit-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out; }
+      @media only screen and (min-width: 62rem) {
+        .s_agro-list--items .item .image {
+          height: 21.375rem; } }
+    .s_agro-list--items .item p {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.625rem;
+      line-height: 1.25;
+      color: #FFFFFF; }
+
+.s_agro-list {
+  margin: 1.5625rem 0 0; }
+  @media only screen and (min-width: 48rem) {
+    .s_agro-list {
+      margin: 6.25rem 0 0; } }
+
+.s_agro .wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media only screen and (max-width: 47.9375rem) {
+    .s_agro .wrapper .order-1 {
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1; }
+    .s_agro .wrapper .order-2 {
+      -webkit-box-ordinal-group: 3;
+      -webkit-order: 2;
+          -ms-flex-order: 2;
+              order: 2; }
+    .s_agro .wrapper .order-3 {
+      -webkit-box-ordinal-group: 4;
+      -webkit-order: 3;
+          -ms-flex-order: 3;
+              order: 3; }
+    .s_agro .wrapper .order-4 {
+      -webkit-box-ordinal-group: 5;
+      -webkit-order: 4;
+          -ms-flex-order: 4;
+              order: 4; }
+    .s_agro .wrapper .order-5 {
+      -webkit-box-ordinal-group: 6;
+      -webkit-order: 5;
+          -ms-flex-order: 5;
+              order: 5; } }
+
+@media only screen and (max-width: 61.9375rem) {
+  .s_agro-list .item {
+    margin-bottom: 2.1875rem; } }
+
+@media only screen and (min-width: 48rem) {
+  .s_agro .banner.img {
+    height: 40.3125rem; } }
+
+@media only screen and (max-width: 61.9375rem) {
+  .s_agro .banner.img {
+    padding: 1.25rem 0.9375rem; }
+    .s_agro .banner.img p b {
+      font-weight: normal; } }

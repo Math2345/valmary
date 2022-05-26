@@ -1,0 +1,36 @@
+block vars
+	-
+		var title = typeof title !== 'undefined' ? title : null;
+-
+	var baseDir = 'assets/';
+
+doctype html
+html
+	head
+		if title !== null
+			title= title + " | Valnary"
+		link(rel="stylesheet" href=`${baseDir}css/main.min.css?v=${Date.now()}`)
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="icon" href="favicon.ico")
+		link(rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css")
+			
+	body 
+
+		include ./header.pug
+		
+		main
+			block content
+
+		include ./footer.pug
+
+		block scripts
+			//- script(src=`https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=eb505fe6-1302-4c4e-8cbc-e50446915e83`)
+			//- script(src=`${baseDir}libs/jquery/jquery.min.js`)
+			script(src='https://unpkg.com/swiper@8/swiper-bundle.min.js')
+			script(src=`${baseDir}js/scripts.min.js?v=${Date.now()}`)
+			script(src=`${baseDir}libs/wow/wow.js`)
+			script(src=`${baseDir}libs/lazy/jquery.lazy.min.js`)
+			script(src=`${baseDir}libs/lazy/jquery.lazy.plugins.min.js`)
+			script(src=`${baseDir}js/common.js?v=${Date.now()}`)

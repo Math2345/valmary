@@ -1,0 +1,128 @@
+.s_contacts {
+  padding: 0; }
+  @media only screen and (min-width: 48rem) {
+    .s_contacts {
+      margin: 0 0 5em; } }
+  .s_contacts-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    position: relative;
+    overflow: visible;
+    max-height: initial; }
+    @media only screen and (min-width: 48rem) {
+      .s_contacts-list {
+        max-height: 50em;
+        overflow: hidden;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; } }
+    .s_contacts-list::after {
+      display: none; }
+      @media only screen and (min-width: 48rem) {
+        .s_contacts-list::after {
+          content: "";
+          display: block;
+          width: 100%;
+          position: absolute;
+          background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #F7F7F7), to(rgba(225, 255, 225, 0)));
+          background: -webkit-linear-gradient(bottom, #F7F7F7 20%, rgba(225, 255, 225, 0) 100%);
+          background: -o-linear-gradient(bottom, #F7F7F7 20%, rgba(225, 255, 225, 0) 100%);
+          background: linear-gradient(0deg, #F7F7F7 20%, rgba(225, 255, 225, 0) 100%);
+          height: 10em;
+          z-index: 1;
+          bottom: 0; } }
+    .s_contacts-list.active {
+      height: 100%;
+      max-height: 500em;
+      -webkit-animation: 1s 1 alternate list-out;
+              animation: 1s 1 alternate list-out; }
+      .s_contacts-list.active::after {
+        height: 0em; }
+  .s_contacts--item {
+    width: 100%;
+    background-color: #fff;
+    -webkit-border-radius: 1.5625rem;
+            border-radius: 1.5625rem;
+    margin: 0.625rem 0;
+    padding: 1.5625rem 1.125rem 1.5625rem 1.5625rem; }
+    .s_contacts--item:first-child {
+      margin-top: 0; }
+    @media only screen and (min-width: 48rem) {
+      .s_contacts--item {
+        width: 32%;
+        margin: 1% 0 !important;
+        padding: 2em 2em; } }
+    .s_contacts--item span {
+      display: block;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 1rem;
+      margin-top: 1.25rem; }
+      @media only screen and (min-width: 48rem) {
+        .s_contacts--item span {
+          margin-top: 0.625rem; } }
+    .s_contacts--item a {
+      color: #4B4B4B; }
+    .s_contacts--item h4 {
+      font-family: "HelveticaNeueCyr-Medium";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.25rem;
+      line-height: 1.375rem;
+      color: #222222;
+      margin-bottom: 1.125rem; }
+      @media only screen and (min-width: 48rem) {
+        .s_contacts--item h4 {
+          font-size: 1.5rem;
+          line-height: 1.5; } }
+    .s_contacts--item p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 1.1875rem; }
+      @media only screen and (min-width: 48rem) {
+        .s_contacts--item p {
+          font-size: 1.25rem;
+          line-height: 1.5rem; } }
+  .s_contacts button {
+    background-color: #00365F;
+    -webkit-border-radius: 1.75rem;
+            border-radius: 1.75rem;
+    border: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    text-align: center;
+    color: #FFFFFF;
+    padding: .6em 1em .4em;
+    margin: 1em auto;
+    display: none; }
+    .s_contacts button svg path {
+      fill: #fff !important; }
+    @media only screen and (min-width: 48rem) {
+      .s_contacts button {
+        display: block;
+        font-size: 1.125rem; } }
