@@ -1,7 +1,32 @@
 -
 	var upload = 'assets/upload/';
 	var image = 'assets/image/';
+	var count = 1;
+	var menu_items = ['Курсы обучения', 'Вебинары', 'Видео-уроки', 'Блог', 'О нас', 'Прайс', 'Рассписание', 'Акции', 'Магазин'];
 
 header.header
-	.container
+	.header__top
+		.container
+			.block.df.vc
+				a.logo.df.vc(href="/")
+					img(src="assets/upload/logo.svg", alt="")
+					span Учебный центр <br>эстетической косметологии
+				a.tel.df.vc(href="tel:0800508622") 0 (800) 508-622
+				.soc.df.vc
+					a(href="#")
+						img(src="assets/upload/icons/facebook.svg", alt="")
+					a(href="#")
+						img(src="assets/upload/icons/instagram.svg", alt="")
+				.lang.df.vc
+					.current-lang.df.vc
+						img.lang-icon(src="assets/upload/icons/flag.svg", alt="")
+						img.arr(src="assets/upload/icons/arrows.svg", alt="")
+	.header__bottom
+		.container
+			nav
+				ul.df.jb.vc
+					each item in menu_items
+						li 
+							a(href="#") #{item}
+				
 		

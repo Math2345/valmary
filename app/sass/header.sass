@@ -1,3 +1,67 @@
 @import "vars"
 @import "_mixins/media"
 
+
+
+.header
+
+    &__top
+        padding: 12px 0 11px
+        border-bottom: 1px solid rgba(85, 166, 48, 0.5)
+
+    .logo
+        img 
+            width: 60px
+            height: 60px
+
+        span 
+            line-height: 1
+            margin-left: 11px
+            font-size: 12px
+            color: #1C1E23
+            opacity: .8
+
+    .tel
+        margin-left: auto
+        font-weight: 500
+        font-size: 25px
+        letter-spacing: 1px
+        color: #424242
+
+        &::before
+            content: url('../upload/icons/tel.svg')
+            width: 28px
+            height: 28px
+            margin-right: 22px
+
+            position: relative
+            top: -3px
+            left: -4px
+
+    .soc
+        margin: 0 66px 7px 80px
+
+        a 
+            &:not(:last-child)
+                margin-right: 26px
+
+    .lang
+
+        .lang-icon 
+            margin-right: 14px
+
+    &__bottom 
+
+        ul
+            padding: 22px 0
+
+            a
+                font-weight: 500
+                font-size: 16px
+                letter-spacing: 0.09375rem
+                color: #424242             
+
+
+
+
+

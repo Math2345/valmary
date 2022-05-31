@@ -2,55 +2,20 @@
 @import "_mixins/media"
 
 body
-	font-family: HelveticaNeueCyr-Roman
-	//background-color: #fff
-	+min-width(768)
-		font-size: 11px
-	+min-width(992)
-		font-size: 11px
-	+min-width(1500)
-		font-size: 12px
-	+min-width(1600)
-		font-size: 13px
-	+min-width(1700)
-		font-size: 14px
-	+min-width(1800)
-		font-size: 15px
-	+min-width(1900)
-		font-size: 16px
-
-	&.inner
-		main
-			padding-top: 78px
-			+min-width(992)
-				padding-top: 9.68em
+	font-family: "Montserrat-Light", sans-serif
 
 main
 	overflow: hidden
 
-p
-	font-style: normal
+a 
+	text-decoration: none
+	font-size: 20px
 	font-weight: normal
-	font-size: 1em
-	line-height: 1.25em
-	color: $brown
-	&.p2
-		font-style: normal
-		font-weight: normal
-		font-size: 16px
-		line-height: 120%
-		+min-width(768)
-			font-size: 18px
-		+min-width(992)
-			font-size: 22px
+	display: block
+	color: #1C1E23
 
-h2
-	font-style: normal
-	font-weight: 500
-	font-size: 2.5em
-	line-height: 110%
-	color: #222
-	font-weight: bold
+	position: relative
+    
 
 select
 	outline: none
@@ -65,7 +30,7 @@ select
 @media (min-width: 300px)
 	.container
 		width: 100%
-		padding: 0 15px
+		//padding: 0 15px
 
 	.row
 		//margin: 0 -15px
@@ -74,13 +39,13 @@ select
 		//padding: 0 15px
 
 .container
-	display: block
-	margin: auto
-	max-width: 1275px
+	position: relative
 	width: 100%
+	box-sizing: border-box
+	margin: auto
+	max-width: 1201px
 	+min-width(1200)
-		max-width: 1275px
-		width: 100%
+		max-width: 1201px
 	+min-width(1366)
 		// width: 91%
 	+min-width(1400)
@@ -267,3 +232,62 @@ section
 	transition: .25s linear
 	&:hover
 		transform: scale(1.05)
+
+
+/* FlexBox */
+
+.df 
+  display: flex
+
+
+.fr 
+  flex-direction: row
+
+
+.fc 
+  flex-direction: column
+
+
+
+.jb 
+  justify-content: space-between
+
+
+.jc 
+  justify-content: center
+
+
+.je 
+  justify-content: flex-end
+
+
+.vt 
+  align-items: flex-start
+
+
+.vc 
+  align-items: center
+
+
+.vb 
+  align-items: flex-end
+
+
+.it 
+  align-self: flex-start
+
+
+.ic 
+  align-self: center
+
+
+.ib 
+  align-self: flex-end
+
+
+.fw 
+  flex-wrap: wrap
+
+
+.fwn 
+  flex-wrap: nowrap
