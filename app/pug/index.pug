@@ -1,6 +1,7 @@
 extends ./layout.pug
 block vars
 	- var title = 'Главная';
+	- var sec2_items = [{ text: "Сертификатов мы выдали", digital: "4000+"},{ text: "Моделей в нашей базе", digital: "3500+"},{ text: "Специалистов мы обучили", digital: "1500+"},{ text: "Довольных клиентов", digital: "5500+"}];
 
 block content
 	section.sec1
@@ -14,4 +15,11 @@ block content
 					.t4.df
 						button.btn.btn-green  Зарегистрироваться
 						button.btn.btn-transparent Узнать подробнее
+	section.sec2
+		.container
+			.trigger-block.df.vc.jb
+				each item in sec2_items
+					.item
+						.t1 #{item.digital}
+						.t2 #{item.text}
 				
